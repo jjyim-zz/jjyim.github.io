@@ -1,3 +1,22 @@
+Steps that I took to optimize this page: 
+
+CSS - Inlined all of the CSS in the non-pizza.html pages and of the visibly called styles for the pizza.html page
+JS - Add the async tag to all of the JS scripts, including the Google Analytics because those are not needed during the loading phase 
+Images - Used Mac's inhouse Preview to resize and Kraken (https://kraken.io/web-interface) to compress all images
+
+Pizza.html 
+- Renamed the 'noise' in var adjectives to 'noisy'
+- Pulled DOM queries within for loops out 
+	- updatePosition: pulled the scrollTop and made it a var
+	- changePizzaSizes: created vars using dx, newwidth, and a new randomPizzaElement
+- Optimized loops to pull out the DOM query 
+	- updatePosition: pulled out the items.length call into a separate variable 
+	- changePizzaSizes: pulled the query selector out and swapped it with the randomPizzaElements
+- Reduced the number of sliding pizzas from 200 to 35
+- Created a smaller sliding pizza image and removed the height and width call 
+- Did a requestAnimationFrame for the updatePositions
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
