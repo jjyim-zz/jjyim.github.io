@@ -16,6 +16,12 @@ Pizza.html
 - Created a smaller sliding pizza image and removed the height and width call 
 - Did a requestAnimationFrame for the updatePositions
 
+Resources: 
+Learning to optimize loops: 
+http://conceptf1.blogspot.com/2014/01/javascript-best-practices-loop-optimization.html
+
+How to inline Google Fonts: 
+https://developers.google.com/speed/pagespeed/module/filter-css-inline-google-fonts
 
 ## Website Performance Optimization portfolio project
 
