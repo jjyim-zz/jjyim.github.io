@@ -37,7 +37,7 @@ function preloadImages(array) {
     }
 }
 
-preloadImages(["images/pizzeria.jpg", "images/pizza.jpg", "images/slidingPizza.jpg"]);
+preloadImages(["images/pizzeria.jpg", "images/pizza.png", "images/slidingPizza.png"]);
 
 // As you may have realized, this website randomly generates pizzas.
 // Here are arrays of all possible pizza ingredients.
