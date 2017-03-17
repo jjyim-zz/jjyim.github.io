@@ -7,50 +7,86 @@
     <meta name="author" content="Joshua Yim">
     <title>Josh Yim: Portfolio</title>
 
-    <!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
-    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" media="screen,projection"/>
-    <link type="text/css" href="css/bootstrap-grid.min.css" rel="stylesheet" media="screen,projection"/>
-    <link type="text/css" href="css/print.css" rel="stylesheet" media="print">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- css -->
+    <link type="text/css" href="css/materialize.css" rel="stylesheet" media="screen,projection"/>
     <link type="text/css" href="css/style.css" rel="stylesheet" media="print">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
   </head>
 
-  <body>
-    <div class="container-fluid top-hero">
-      <div class="hero">
-        <strong>I love web development!</strong> This is a template for a simple portfolio. I decided to use it to showcase a few Udacity courses I've taken and some teaching work, but you can use it to showcase any kind of project that you want the world to see :) <br> Contact me: me@email.com
-      </div>
-    </div>
-
-    <div class="content">
-      <ul>
-        <li>
-          <img src="https://lh4.ggpht.com/kJEnfqhPvtm4m3EneSZ4fWYGS8lW4YNhEjk6zPkyrQaBUHc-2Y_ElDic99NHI0h-UBLXVbRCjFybFvrWxdk=s100">
-          <a href="project-2048.html">Build Your Own 2048!</a>
-          <p>I made my own version of 2048. How cool is that!?</p>
-        </li>
-
-        <li>
-          <img src="https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s100">
-          <a href="project-webperf.html">Website Performance Optimization</a>
-          <p>Hey... this class looks familiar.</p>
-        </li>
-
-        <li>
-          <img src="https://lh5.ggpht.com/IKdCmTWn8a2nMhlwMYzryvzRN5CUZAOBr4tDrEAbszV7TIFe9pRAInA4kkYcgTXwrifJsBEsq1agTueuu-g=s100">
-          <a href="project-mobile.html">Mobile Web Development</a>
-          <p>Making mobile apps isn't so hard after all.</p>
-        </li>
-
-        <li>
-          <img style="width: 100px;" src="views/images/pizzeriaThumb.jpeg">
-          <a href="views/pizza.html">Cam's Pizzeria</a>
-          <p>Who wants a performant pizza?</p>
-        </li>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo left">Josh Yim</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Resume</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
       </ul>
     </div>
+  </nav>
 
-    <footer>
-      <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
-    </footer>
+  <body>
+    <!--div class="preloader-wrapper small active">
+      <div class="spinner-layer spinner-green-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div-->
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/background.jpg"></div>
+    </div>
+
+    <div class="container">
+      <div class="wrapper" style="">
+        <!--img src="img/background.jpg" width="100%"-->
+        <div class="intro">
+          <h2>josh yim</h2>
+          <h5>art junkie | musician | web developer</h5>
+          <a href="#projects"><p>scroll down to see projects</p></a>
+        </div>
+      </div>
+    </div>
+    
+
+    <div id="projects">
+      <div>
+        
+      </div>
+    </div>
+    
   </body>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Like what you see?</h5>
+          <p class="grey-text text-lighten-4">Check out my other web pages!</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Connect with me:</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://www.flickr.com/photos/jjyim/">Flickr</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/jjyim">Github</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/joshuajyim/">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2017 Joshua Yim
+      </div>
+    </div>
+  </footer>
 </html>
